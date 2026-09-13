@@ -1,0 +1,22 @@
+# Entornos virtuales
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code - configuración local opcional
+# .vscode/
+
+# Datos y resultados temporales
+*.tmp
+*.log
+
+# Archivos de prueba
+*.bak
