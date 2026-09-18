@@ -2,7 +2,7 @@
     "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
     "python.terminal.activateEnvironment": true,
 
-    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoImportCompletions": false,
     "python.analysis.typeCheckingMode": "basic",
 
     "jupyter.jupyterServerType": "local",
@@ -24,5 +24,15 @@
     "editor.formatOnSave": false,
     "editor.rulers": [88],
     "editor.tabSize": 4,
-    "editor.insertSpaces": true
+    "editor.insertSpaces": true,
+
+    "editor.quickSuggestions": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.parameterHints.enabled": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.snippetSuggestions": "none",
+    "editor.acceptSuggestionOnEnter": "off",
+
+    "chat.disableAIFeatures": true
 }
